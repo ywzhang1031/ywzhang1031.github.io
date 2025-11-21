@@ -48,7 +48,29 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {% if entry.website %}
+        <a href="{{ entry.website }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+      {% elsif entry.html %}
+        {% if entry.html contains '://' %}
+          <a href="{{ entry.html }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+        {% else %}
+          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+        {% endif %}
+      {% elsif entry.pdf %}
+        {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+        {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+        {% endif %}
+      {% elsif entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+      {% elsif entry.arxiv %}
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
