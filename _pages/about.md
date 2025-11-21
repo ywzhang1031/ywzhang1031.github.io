@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: HPC Engineer</a> @ <a href='https://www.insta360.com'>Insta360 | 
-          M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn//'>UCAS</a>
+subtitle: HPC Engineer @ <a href='https://www.insta360.com'>Insta360</a> | 
+          M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn/'>UCAS</a>
 
 profile:
   align: right
   image: hiking.png
-  image_circular: false # 如果想要圆形头像改为 true
-  image_style: "transform: rotate(-90deg); max-width: 512px; width: 728px;" # 旋转图片以修正方向，设置图片宽度
+  image_circular: true # 如果想要圆形头像改为 true
+  image_style: "transform: rotate(-90deg); max-width: 256px; width: 480px;" # 旋转图片以修正方向，设置图片宽度
   address: >
     <p>Shenzhen, China</p>
 
