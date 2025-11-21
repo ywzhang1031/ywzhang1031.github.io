@@ -8,14 +8,14 @@ middle_name:
 last_name: Zhang
 email: z15000675672@gmail.com
 contact_note: >
-  Looking for Ph.D. opportunities (Fall 2026).
+  Better to light a candle than to curse the darkness.
 description: >
-  HPC Engineer @ Insta360 | M.Sc. from UCAS
+  HPC Engineer @ <a href='https://www.insta360.com'>Insta360</a> | M.Sc. from <a href='https://www.ucas.ac.cn//'>UCAS</a>
 footer_text: >
   Copyright © 2025 Yuewen Zhang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Computer Vision, Domain Generalization, VLM, MLLMs
 lang: en
-icon: ⚛️
+icon: 🦂
 
 url: "https://ywzhang1031.github.io"
 baseurl: ""  

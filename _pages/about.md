@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.insta360.com'>HPC Engineer</a> @ Insta360 | 
-          M.Sc. in Electronic Information, <a href='https://english.ucas.ac.cn/'>UCAS</a>
+subtitle: HPC Engineer</a> @ <a href='https://www.insta360.com'>Insta360 | 
+          M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn//'>UCAS</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hiking.png
   image_circular: false # 如果想要圆形头像改为 true
   address: >
     <p>Shenzhen, China</p>
@@ -34,3 +34,15 @@ I am actively looking for **Ph.D. opportunities for Fall 2026**. I am particular
 
 * **[Nov. 2025]** Building my academic homepage.
 * **[2025]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
+
+***
+
+### More Information
+
+Beyond my academic pursuits, I enjoy exploring various interests and hobbies. Here are some aspects of my life outside of research:
+
+* **Basketball**: I'm an avid basketball player and a left-handed shooter with a reliable three-point shot. My favorite player is **Stephen Curry**, whose style and precision have greatly influenced my game.
+
+* **Music**: I'm passionate about music, especially **rap** and listening to various genres. **Coldplay** is my favorite band, and their music often accompanies me during work and leisure time.
+
+Feel free to reach out if you'd like to connect about shared interests!
