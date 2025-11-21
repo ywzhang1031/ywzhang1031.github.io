@@ -32,4 +32,4 @@ I am actively looking for **Ph.D. opportunities for Fall 2026**. I am particular
 ### 🔥 News
 
 * **[Nov. 2024]** Building my academic homepage.
-* **[2024]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
+* **[2025]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
