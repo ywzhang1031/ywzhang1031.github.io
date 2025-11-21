@@ -25,11 +25,11 @@ My research interests lie at the intersection of **Computer Vision** and **Machi
 * **Robust Representation Learning** for Vision-Language Models (VLMs)
 * **Explainable AI**
 
-I am actively looking for **Ph.D. opportunities for Fall 2026**. I am particularly interested in efficient training and inference of Multimodal Large Models.
+I am actively looking for **Ph.D. opportunities for Fall 2026**. I am particularly interested in Transfer Learning and Multimodal Large Models.
 
 ***
 
 ### 🔥 News
 
-* **[Nov. 2024]** Building my academic homepage.
+* **[Nov. 2025]** Building my academic homepage.
 * **[2025]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
