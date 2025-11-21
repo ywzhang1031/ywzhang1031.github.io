@@ -9,6 +9,7 @@ profile:
   align: right
   image: hiking.png
   image_circular: false # 如果想要圆形头像改为 true
+  image_style: "transform: rotate(-90deg);" # 旋转图片以修正方向
   address: >
     <p>Shenzhen, China</p>
 

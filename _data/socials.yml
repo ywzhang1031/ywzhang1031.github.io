@@ -53,6 +53,6 @@ scholar_userid: YDjSimgAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 xiaohongshu: # 小红书 (Xiaohongshu)
-  logo: https://s1.xiaohongshu.com/assets/web/favicon.ico # 小红书图标
+  logo: /assets/img/rednote_logo.jpg # 小红书图标
   title: 小红书
-  url: https://www.xiaohongshu.com/user/profile/66729cac000000001b017208 # 请替换为你的小红书主页链接
+  url: https://www.xiaohongshu.com/user/profile/66729cac000000001b017208
