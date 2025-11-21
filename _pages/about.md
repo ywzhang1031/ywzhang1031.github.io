@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>HPC Engineer</a> @ Insta360 | M.Sc. from <a href='#'>CAS</a>
+subtitle: <a href='https://www.insta360.com'>HPC Engineer</a> @ Insta360 | 
+          M.Sc. in Electronic Information, <a href='https://english.ucas.ac.cn/'>UCAS</a>
 
 profile:
   align: right
@@ -16,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a High-Performance Computing (HPC) Engineer at **Insta360**, focusing on optimizing computational pipelines for imaging systems. 
+I am currently a High-Performance Computing (HPC) Engineer at **Insta360**, focusing on optimizing computational pipelines for systems. 
 
 I received my M.Sc. degree in Electronic Information from the **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024.
 
