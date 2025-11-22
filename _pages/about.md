@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a High-Performance Computing (HPC) Engineer at **Insta360**, focusing on optimizing computational pipelines for systems. 
 
-I received my M.Sc. degree in Electronic Information from the **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024.
+I received my M.Sc. degree in Electronic Information from the **State Key Laboratory of Microsystem and Information Technology**, **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024.
 
 My research interests lie at the intersection of **Computer Vision** and **Machine Learning**, with a specific focus on:
 * **Domain Generalization**
