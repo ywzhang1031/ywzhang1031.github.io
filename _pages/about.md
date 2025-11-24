@@ -3,12 +3,12 @@ layout: about
 title: about
 permalink: /
 subtitle: HPC Engineer @ <a href='https://www.insta360.com'>Insta360</a> | 
-          M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn/'>UCAS</a>
+          M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn/'>UCAS</a> 
 
 profile:
   align: right
   image: hiking.png
-  image_circular: true # 如果想要圆形头像改为 true
+  image_circular: false # 如果想要圆形头像改为 true
   image_style: "transform: rotate(-90deg); max-width: 256px; width: 480px;" # 旋转图片以修正方向，设置图片宽度
   address: >
     <p>Shenzhen, China</p>
@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a High-Performance Computing (HPC) Engineer at **Insta360**, focusing on optimizing computational pipelines for systems. 
 
-I received my M.Sc. degree in Electronic Information from the **State Key Laboratory of Microsystem and Information Technology**, **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024.
+I received my M.Sc. degree in Electronic Information from the **State Key Laboratory of Microsystem and Information Technology**, **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024. Prior to that, I obtained my B.Sc. degree from **Shanghai Maritime University**.
 
 My research interests lie at the intersection of **Computer Vision** and **Machine Learning**, with a specific focus on:
 * **Domain Generalization**

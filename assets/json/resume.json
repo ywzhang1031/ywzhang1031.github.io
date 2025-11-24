@@ -52,6 +52,16 @@
       "startDate": "2021-09-01",
       "endDate": "2024-06-01",
       "courses": ["Computer Vision", "Machine Learning", "CUDA Parallel Programming"]
+    },
+    {
+      "institution": "Shanghai Maritime University",
+      "location": "Shanghai, China",
+      "url": "https://www.shmtu.edu.cn/",
+      "area": "Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-01",
+      "courses": ["Advanced Mathematics", "Linear Algebra", "Probability and Statistics"]
     }
   ],
   // "awards": [
@@ -63,50 +73,50 @@
   //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
   //   }
   // ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
   "publications": [
     {
       "name": "DALSCLIP: Domain Adaptive Language-Image Pre-training for Text-to-Image Generation",
@@ -160,6 +170,23 @@
         "Multimodal Large Models",
         "Domain Generalization",
         "Explainable AI"
+      ]
+    },
+    {
+      "name": "Basketball",
+      "icon": "fa-solid fa-basketball",
+      "keywords": [
+        "Basketball Training",
+        "Three-Point Shot",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "name": "Music",
+      "icon": "fa-solid fa-music",
+      "keywords": [
+        "Guitar",
+        "Coldplay"
       ]
     }
   ]
