@@ -37,6 +37,7 @@ I am deeply passionate about Artificial Intelligence and driven by a pure curios
 ### 🔥 News
 
 * **[2025]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
+* **[2024]** Joined Insta360 as a High-Performance Computing Engineer.
 
 ***
 

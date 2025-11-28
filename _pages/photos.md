@@ -107,7 +107,7 @@ nav_order: 6
 {% endif %}
 </div>
 
-<script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url | bust_file_cache }}" type="module"></script>
+<script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url }}" type="module"></script>
 
 <style>
 .photos {
