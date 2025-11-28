@@ -6,12 +6,15 @@ subtitle: HPC Engineer @ <a href='https://www.insta360.com'>Insta360</a> |
           M.Sc. in Electronic Information, <a href='https://www.ucas.ac.cn/'>UCAS</a> 
 
 profile:
-  align: right
+  align: left
   image: hiking.png
   image_circular: false # 如果想要圆形头像改为 true
   image_style: "transform: rotate(-90deg); max-width: 256px; width: 480px;" # 旋转图片以修正方向，设置图片宽度
   address: >
-    <p>Shenzhen, China</p>
+    <p><i class="fa-solid fa-location-dot"></i> Shenzhen, China</p>
+  more_info: >
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:z15000675672@gmail.com">z15000675672@gmail.com</a></p>
+    <p><i class="fa-brands fa-weixin"></i> WeChat (点击底部图标查看二维码)</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,13 +30,12 @@ My research interests lie at the intersection of **Computer Vision** and **Machi
 * **Robust Representation Learning** for Vision-Language Models (VLMs)
 * **Explainable AI**
 
-I am actively looking for **Ph.D. opportunities for Fall 2026**. I am particularly interested in Transfer Learning and Multimodal Large Models.
+I am deeply passionate about Artificial Intelligence and driven by a pure curiosity to explore its boundaries. My goal is to make tangible contributions to the field, however small, and to better understand how AI can reshape human lifestyles. I am eager to witness and participate in this transformative era.
 
 ***
 
 ### 🔥 News
 
-* **[Nov. 2025]** Building my academic homepage.
 * **[2025]** My paper "DALSCLIP" was published in *Image and Vision Computing*!
 
 ***
