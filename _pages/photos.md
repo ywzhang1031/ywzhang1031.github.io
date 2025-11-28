@@ -55,12 +55,22 @@ nav_order: 6
         <img src="{{ img.image | prepend: '/assets/img/photos/' | relative_url }}" 
              alt="{{ img.title | default: photo.title | default: photo.date | date: '%Y-%m-%d' }}"
              loading="lazy" />
-        {% if img.title or img.caption or photo.title or photo.caption %}
+        {% assign has_title = img.title | strip | size %}
+        {% assign has_caption = img.caption | strip | size %}
+        {% assign has_photo_title = photo.title | strip | size %}
+        {% assign has_photo_caption = photo.caption | strip | size %}
+        {% if has_title > 0 or has_caption > 0 or has_photo_title > 0 or has_photo_caption > 0 %}
           <div class="photo-caption">
-            {% if img.title %}<strong>{{ img.title }}</strong>
-            {% elsif photo.title %}<strong>{{ photo.title }}</strong>{% endif %}
-            {% if img.caption %}<span>{{ img.caption }}</span>
-            {% elsif photo.caption %}<span>{{ photo.caption }}</span>{% endif %}
+            {% if has_title > 0 %}
+              <strong>{{ img.title }}</strong>
+            {% elsif has_photo_title > 0 %}
+              <strong>{{ photo.title }}</strong>
+            {% endif %}
+            {% if has_caption > 0 %}
+              <span>{{ img.caption }}</span>
+            {% elsif has_photo_caption > 0 %}
+              <span>{{ photo.caption }}</span>
+            {% endif %}
           </div>
         {% endif %}
       </a>
@@ -131,6 +141,7 @@ nav_order: 6
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .photo-item {
@@ -151,7 +162,9 @@ nav_order: 6
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  image-orientation: none;
+  transform: none;
 }
 
 .photo-caption {
