@@ -36,7 +36,15 @@ I am deeply passionate about Artificial Intelligence and driven by a pure curios
 
 ### 💼 Work Experience
 
-**High-Performance Computing (HPC) Engineer** *Insta360, Shenzhen, China* *Jul. 2024 – Present*
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;">
+  <div>
+    <strong>High-Performance Computing (HPC) Engineer</strong><br>
+    <em>Insta360, Shenzhen, China</em>
+  </div>
+  <div style="margin-left: auto; text-align: right; white-space: nowrap;">
+    <em>Jul. 2024 – Present</em>
+  </div>
+</div>
 
 Responsible for the full-cycle implementation and landing of the **Landing Protection Business** (Consumer Drone/Camera Safety).
 * **System Implementation & Optimization:** Led the C++ implementation of core safety algorithms; conducted rigorous code optimization to minimize latency and ensure real-time response.
