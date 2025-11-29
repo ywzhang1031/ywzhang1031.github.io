@@ -153,16 +153,26 @@ nav_order: 6
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* 统一卡片比例，避免有的很高有的很扁 */
+.photo-item::before {
+  content: "";
+  display: block;
+  padding-bottom: 75%; /* 3:2 比例，你也可以改成 75%（4:3）或 56.25%（16:9） */
+}
+
 .photo-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .photo-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  object-fit: contain;
+  object-fit: cover; /* 充满卡片，必要时裁剪一点边缘，看起来更整齐 */
   image-orientation: none;
   transform: none;
 }
