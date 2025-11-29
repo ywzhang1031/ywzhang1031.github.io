@@ -387,7 +387,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "photos-12月照片集",
+          section: "News",},{id: "photos-11月照片集",
+          title: '11月照片集',
+          description: "",
+          section: "Photos",handler: () => {
+              window.location.href = "/photos/2023-11-01-photos/";
+            },},{id: "photos-12月照片集",
           title: '12月照片集',
           description: "",
           section: "Photos",handler: () => {
