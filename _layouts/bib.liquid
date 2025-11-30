@@ -263,11 +263,6 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
 
-      {%- comment -%}
-        Required action buttons: always show [PDF], [Code], [BibTeX].
-        If metadata is missing, render a disabled button so layout stays consistent.
-      {%- endcomment -%}
-
       {%- if entry.pdf -%}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
@@ -277,12 +272,17 @@
       {%- else -%}
         <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true">PDF</a>
       {%- endif -%}
+      
+      {%- comment -%}
+        Code 按钮已关闭：如果以后想重新显示，只需删掉本段 comment，
+        保留下面这几行即可。
 
-      {%- if entry.code -%}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-      {%- else -%}
-        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true">Code</a>
-      {%- endif -%}
+        {%- if entry.code -%}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {%- else -%}
+          <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true">Code</a>
+        {%- endif -%}
+      {%- endcomment -%}
 
       <a class="bibtex btn btn-sm z-depth-0" role="button">BibTeX</a>
     </div>
