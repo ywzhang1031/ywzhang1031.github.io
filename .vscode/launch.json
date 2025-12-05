@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File (WSL)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}", // 调试当前打开的文件
+            "console": "integratedTerminal", // 在 VS Code/Cursor 的内置终端运行
+            "stopOnEntry": false, // 不在程序入口处暂停
+
+            // ========== 核心 Conda / WSL 设置 ==========
+            "justMyCode": true, // 仅调试你的代码（忽略库文件，推荐）
+            "cwd": "${workspaceFolder}", // 设置工作目录为项目根目录
+
+            // 告诉调试器使用 Conda 环境
+            "env": { 
+                "PATH": "/home/evan/miniforge3/envs/torch5090/bin:${env:PATH}",
+                "CONDA_DEFAULT_ENV": "torch5090"
+            },
+            
+            // 确保使用正确路径下的 Python 解释器
+            "pythonPath": "/home/evan/miniforge3/envs/torch5090/bin/python" 
+        }
+    ]
+}
