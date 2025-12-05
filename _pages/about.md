@@ -30,7 +30,7 @@ My research interests lie at the intersection of **Computer Vision** and **Machi
 * **Robust Representation Learning** for Vision-Language Models (VLMs)
 * **Explainable AI**
 
-I am deeply passionate about Artificial Intelligence and driven by a pure curiosity to explore its boundaries. My aspiration is to contribute a piece to this puzzle, bridging the gap between theoretical models and real-world impact. Let's explore the future of AI together.
+Driven by pure curiosity, I am passionate about exploring the boundaries of AI. My goal is to make tangible contributions—however small—and to understand how AI reshapes the way we live. I am excited to be part of this transformative era.
 
 ***
 
