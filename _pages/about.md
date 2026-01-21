@@ -25,10 +25,14 @@ I am currently a **High-Performance Computing (HPC) Engineer** at **Insta360**, 
 
 I received my M.Sc. degree in Electronic Information from the **State Key Laboratory of Microsystem and Information Technology**, **Shanghai Institute of Microsystem and Information Technology (SIMIT)**, **Chinese Academy of Sciences (CAS)** in 2024. Prior to that, I obtained my B.Eng. degree from **Shanghai Maritime University**.
 
-My research interests lie at the intersection of **Computer Vision** and **Machine Learning**, with a specific focus on:
-* **Domain Generalization**
-* **Robust Representation Learning** for Vision-Language Models (VLMs)
-* **Explainable AI**
+Recently, I am expanding my focus toward foundation models (LLMs/VLMs), especially memory/agentic systems, multimodal model design, and evaluation.
+
+My research interests center on Foundation Models (LLMs/VLMs) and efficient, reliable AI systems, including:
+- LLM memory and agentic systems (currently learning and prototyping with LangChain)
+- Multimodal LLMs (representation/tokenization design)
+- Evaluation and system-level understanding of model behavior
+- Efficient inference and deployment for real-world applications
+
 
 Driven by pure curiosity, I am passionate about exploring the boundaries of AI. My goal is to make tangible contributions—however small—and to understand how AI reshapes the way we live. I am excited to be part of this transformative era.
 
